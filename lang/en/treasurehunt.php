@@ -69,7 +69,7 @@ $string['confirmdeletestage'] = 'The stage was successfully removed';
 $string['continue'] = 'Continue';
 $string['correctanswer'] = 'Correct answer.';
 $string['cleartreasurehunt'] = 'Reset the Treasure Hunt';
-$string['cleartreasurehunt_done'] = 'The activity has been reset. All activity of the participants has benn deleted.';
+$string['cleartreasurehunt_done'] = 'The activity has been reset. All activity of the participants has been deleted.';
 $string['cleartreasurehuntconfirm'] = 'Beware this action. All activity recorded will be deleted if you continue. Usually, this action is only needed if you need to change the number of roads or stages but the activity is blocked because someone has started to play the game.';
 $string['customlayername'] = 'Layer title';
 $string['customlayername_help'] = 'If you use a custom layer a title is needed to show it in the maps or your users. If the title is empty the custom layer is fully disabled.';
@@ -356,7 +356,7 @@ $string['usermultiplesameroad'] = '{$a} belong to more than one group assigned t
 $string['userprogress'] = 'User progress successfully updated';
 $string['userquestionfailed'] = 'Failed answer to the question of stage {$a->position} on the date: {$a->date}';
 $string['userquestionovercome'] = 'Succesful answer to the question of stage {$a->position} on the date: {$a->date}';
-$string['usersprogress'] = 'Progress users';
+$string['usersprogress'] = 'Users&apos; progress';
 $string['usersprogress_help'] = 'Indicates the progress of the stages of each student / group according to the colors:
 <P>The color <B> green </B> indicates that the stage has been overcome without failures.</P>
 <P>The color <B> yellow </B> indicates that the stage has been overcome with failures.</P>
