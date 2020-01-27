@@ -118,8 +118,8 @@ module.exports = function(grunt) {
      * Shifter task. Is configured with a path to a specific file or a directory,
      * in the case of a specific file it will work out the right module to be built.
      *
-     * Note that this task runs the invidiaul shifter jobs async (becase it spawns
-     * so be careful to to call done().
+     * Note that this task runs the invidiaul shifter jobs async (because it spawns
+     * so be careful to call done()).
      */
     tasks.shifter = function() {
         var async = require('async'),
