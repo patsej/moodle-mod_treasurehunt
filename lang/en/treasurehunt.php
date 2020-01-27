@@ -356,7 +356,7 @@ $string['usermultiplesameroad'] = '{$a} belong to more than one group assigned t
 $string['userprogress'] = 'User progress successfully updated';
 $string['userquestionfailed'] = 'Failed answer to the question of stage {$a->position} on the date: {$a->date}';
 $string['userquestionovercome'] = 'Succesful answer to the question of stage {$a->position} on the date: {$a->date}';
-$string['usersprogress'] = 'Users&apos; progress';
+$string['usersprogress'] = 'User progress';
 $string['usersprogress_help'] = 'Indicates the progress of the stages of each student / group according to the colors:
 <P>The color <B> green </B> indicates that the stage has been overcome without failures.</P>
 <P>The color <B> yellow </B> indicates that the stage has been overcome with failures.</P>
@@ -390,7 +390,7 @@ $string['map_tour'] = 'In this map you can manage all the components of a funny 
 $string['remove_tour'] = 'You can delete parts of the locations geometries. Just select a polygon and then press this button.';
 $string['roads_tour'] = 'In this area you will find the diferent roads of your game. Select one of them to edit the stages.';
 $string['save_tour'] = 'After drawing yout locations, don\'t forget to save your changes.';
-$string['searchlocation_tour'] = 'Whith this search area you can find your way rapidly';
+$string['searchlocation_tour'] = 'With this search area you can find your way rapidly';
 $string['stages_tour'] = 'In this area you will find the stages of the selected road. Select each stage to zoom to the location of the stages in the map.';
 $string['welcome_edit_tour'] = 'Welcome to the authoring page of TreasureHunt. ';
 
