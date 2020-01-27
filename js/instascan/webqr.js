@@ -86,11 +86,12 @@ function enableForm() {
 	$('#id_generateQR')
 			.click(
 					function() {
-						unloadQR();
+						// unloadQR();
 						var val = $('#id_qrtext').val();
 						if (val != '') {
 							var qrurl = 'https://chart.googleapis.com/chart?cht=qr&chs=500x500&chl='
 									+ $('#id_qrtext').val();
+							$('#outQRCode').text('');
 							$('#outQRCode').prepend($('<img>', {
 								id : 'theQRImg',
 								src : qrurl,
@@ -162,6 +163,7 @@ function unloadQR(errorcallback){
 function loadQR(scancallback, reportcallback)
 {
 	let videopreview = $('#previewQRvideo');
+	videopreview.show();
 	scanner = new Instascan.Scanner({ video: videopreview.get(0) , mirror: false});
 	scanner.addListener('scan',scancallback);
   	Instascan.Camera.getCameras().then(function (cameras) {
