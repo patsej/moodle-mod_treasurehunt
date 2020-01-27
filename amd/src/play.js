@@ -1134,7 +1134,7 @@ define(['jquery',
 		                        .popup())
 		                .toolbar()
 		                .after(content);
-		        // Need it for calculate popup's dimesions when popup contents an image.
+		        // Need it for calculate popup's dimensions when popup contents an image.
 		        totalimg = $(content).find('img');
 		        if (totalimg.length > 0) {
 		            $.mobile.loading("show");
