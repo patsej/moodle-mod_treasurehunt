@@ -1039,7 +1039,8 @@ define(['jquery',
 	                								  - $('#previewQRbuttons').height() 
 	                								  - headerdiv.height()
 	                								  - padding * 2 );
-		            	 loadQR(qrReaded, qrReport);
+		            	$('#previewQRvideo').show(); 
+				loadQR(qrReaded, qrReport);
 		            },
 		            afterclose: function (event, ui) {
 		                unloadQR(qrReport);
@@ -1047,9 +1048,9 @@ define(['jquery',
 		        });
 		    }
 		    $("#nextcamera").on('click', function() {
-		    	if (camerasDetected !== null) {
+		    	if (detectedCameras !== null) {
 			    	var nextcam = getnextwebCam();
-			    	toast('Give access to:' + camerasDetected[nextcam].name);
+			    	toast('Give access to:' + detectedCameras[nextcam].name);
 		    	}
 		    	setnextwebcam(qrReport);
 		    });
