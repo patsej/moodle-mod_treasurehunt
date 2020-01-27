@@ -103,9 +103,9 @@ class mod_treasurehunt_renderer extends plugin_renderer_base {
             $o .= html_writer::table($t);
         } else {
             if ($historical->teacherreview) {
-                $o .= $this->output->notification(get_string('nouserattempts', 'treasurehunt', $historical->username));
+                $o .= $this->output->notification(get_string('nouserattempts', 'treasurehunt', $historical->username), 'notifymessage');
             } else {
-                $o .= $this->output->notification(get_string('noattempts', 'treasurehunt'));
+                $o .= $this->output->notification(get_string('noattempts', 'treasurehunt'), 'notifymessage');
             }
         }
         // Si no ha finalizado pongo el botón de jugar.
@@ -217,7 +217,7 @@ class mod_treasurehunt_renderer extends plugin_renderer_base {
                             $t->data[] = $row;
                         }
                         if (!$hasprogress) {
-                            $s .= $this->output->notification(get_string('nousersprogress', 'treasurehunt'));
+                            $s .= $this->output->notification(get_string('nousersprogress', 'treasurehunt'), 'notifymessage');
                         } else {
                             // All done - write the table.
                             $s .= html_writer::table($t);
