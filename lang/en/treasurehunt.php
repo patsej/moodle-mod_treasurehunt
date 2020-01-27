@@ -201,7 +201,8 @@ $string['grouplocationfailed'] = 'Failed location by {$a->user} of stage {$a->po
 $string['grouplocationovercome'] = 'Succesful location by {$a->user} of stage {$a->position} on the date: {$a->date}';
 $string['groupmode'] = 'Students play in groups';
 $string['groupmode_help'] = 'If enabled students will be divided into groups based on the configuration of course groups.
-A group game will be shared among group members and they will see the changes in the game.';
+Every team-member can solve the current stage and the progress is common to every partner. <br/>
+This allows to “parallelize” the hunt and cover more territory. The participants see the same information but team-oriented.';
 $string['groupmultipleroads'] = '{$a} has more than one road assigned.';
 $string['groupquestionfailed'] = 'Failed answer by {$a->user} to the question of stage {$a->position} on the date: {$a->date}';
 $string['groupquestionovercome'] = 'Succesful answer by {$a->user} to the question of stage {$a->position} on the date: {$a->date}';
@@ -322,7 +323,10 @@ $string['timeexceeded'] = 'You have exceeded the time limit for the activity. Th
 $string['timelabelfailed'] = 'Location sent on the date: ';
 $string['timelabelsuccess'] = 'Stage discovered on the date: ';
 $string['trackusers'] = 'Track trajectories';
-$string['trackusers_help'] = 'Register the paths made by the users while using playing mode.';
+$string['trackusers_help'] = 'Register the paths made by the users. They can be seen in the “Track viewer” screen.<br/>
+The user positions are logged between validation attempts (with every poll request).<br/>
+If the user has his GPS disabled then the only location he can report is that of the scanned QR-Codes.<br/> 
+If this option is <b>disabled</b>, the only locations recorded are those of the validation attempts.';
 $string['trackviewer'] = 'Track Viewer';
 $string['trackviewerrefreshtracks'] = 'Refresh tracks each {$a} seconds.';
 $string['treasurehunt'] = 'Treasure hunt';
