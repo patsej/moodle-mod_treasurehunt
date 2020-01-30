@@ -361,11 +361,11 @@ $string['userprogress'] = 'User progress successfully updated';
 $string['userquestionfailed'] = 'Failed answer to the question of stage {$a->position} on the date: {$a->date}';
 $string['userquestionovercome'] = 'Successful answer to the question of stage {$a->position} on the date: {$a->date}';
 $string['usersprogress'] = 'User progress';
-$string['usersprogress_help'] = 'Indicates the progress of the stages of each student / group according to the colors:
-<P>The color <B> green </B> indicates that the stage has been overcome without failures.</P>
-<P>The color <B> yellow </B> indicates that the stage has been overcome with failures.</P>
-<P>The color <B> red </B> indicates that the stage has not been overcome and failures have been made.</P>
-<P>The color <B> grey </B> indicates that the stage has not been overcome and no failures have been made.</P>';
+$string['usersprogress_help'] = 'Indicates the progress of the stages of each student / group according to the colors:<br/>
+The color <B> green </B> indicates that the stage has been overcome without failures.<br/>
+The color <B> yellow </B> indicates that the stage has been overcome with failures.<br/>
+The color <B> red </B> indicates that the stage has not been overcome and failures have been made.<br/>
+The color <B> grey </B> indicates that the stage has not been overcome and no failures have been made.';
 $string['userstageovercome'] = 'Stage {$a->position} overcome on the date: {$a->date}';
 $string['validatelocation'] = 'Validate location';
 $string['validateqr'] = 'Scan QR';
