@@ -97,7 +97,9 @@ echo $OUTPUT->heading($title);
 if ($treasurehunt->intro) {
     echo $OUTPUT->box(format_module_intro('treasurehunt', $treasurehunt, $cm->id), 'generalbox mod_introbox', 'treasurehuntintro');
 }
-treasurehunt_notify_info(get_string('editactivity_help', 'treasurehunt'), 'info');
+// Get the URL of the tutorial on how to create a TH activity
+$tutorialurl=get_config('mod_treasurehunt', 'help_activitytutorialurl');
+treasurehunt_notify_info(get_string('editactivity_help', 'treasurehunt', $tutorialurl), 'info');
 echo $OUTPUT->container_start("treasurehunt-editor", "treasurehunt-editor");
 echo $OUTPUT->container_start("treasurehunt-editor-loader");
 echo $OUTPUT->box(null, 'loader-circle-outside');

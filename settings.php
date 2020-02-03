@@ -51,4 +51,9 @@ if ($ADMIN->fulltree) {
     // Game update time.
     $settings->add(new admin_setting_configtext('mod_treasurehunt/gameupdatetime', get_string('gameupdatetime', 'treasurehunt'),
             get_string('gameupdatetime_help', 'treasurehunt'), TREASUREHUNT_GAMEUPDATETIME, PARAM_INT));
+
+    // Help section
+    $settings->add(new admin_setting_heading('helpheading', "Help", ''));
+    $settings->add(new admin_setting_configtext('mod_treasurehunt/help_activitytutorialurl', get_string('help_activitytutorialurl', 'treasurehunt'),
+            get_string('help_activitytutorialurl_help', 'treasurehunt'), "https://juacas.github.io/moodle-mod_treasurehunt/create_activity.html", PARAM_LOCALURL));
 }
